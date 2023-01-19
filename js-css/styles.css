@@ -1,0 +1,51 @@
+.primaryContainer {
+    background-image: url('../img/patrick-federi-vcudk5EtRP8-unsplash.jpg');
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.loginContainer {
+    background: rgba(0, 0, 0, 0.507);
+    padding: 1vh;
+    padding-left: 2vh;
+    grid-column-start: 5;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 10;
+    border-radius: 10vh;
+}
+
+.loginHeader {
+    color: aliceblue;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.forumElement1 {
+    text-align: center;
+}
+.whitetext {
+    color:aliceblue;
+}
+
+
+.text {
+    border-radius: 12vh;
+    opacity: 80%;
+    margin: 12vh;
+}
+
+html, body {
+    min-height: 100%;
+}
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
